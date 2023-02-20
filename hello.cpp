@@ -17,6 +17,9 @@ int memcheckFailDemo(int* arrayStack, unsigned int arrayStackLen,
 
 	for (unsigned int i = 0; i <= arrayStackLen; i++) {
 		arrayStack[i] = 0;
+		if (i == 3) {
+			i++;
+		}
 	}
 	for (unsigned int i = 0; i <= arrayHeapLen; i++) {
 		arrayHeap[i] = 0;
